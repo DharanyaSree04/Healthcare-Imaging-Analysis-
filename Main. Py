@@ -17,7 +17,7 @@ if area > 500:
 # Adjust threshold as needed
 tumor_contours.append(contour)
 # Draw contours on the original image
-cv2.drawContours(img, tumor_contours, -1, (0, 255, 0), 2)
+cv2.drawContours(img, tumor_contours, -1,(0,255, 0), 2)
 # Display the image
 cv2_imshow(img)
 cv2.waitKey(0)
